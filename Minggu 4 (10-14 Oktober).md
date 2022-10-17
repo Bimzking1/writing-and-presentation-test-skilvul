@@ -8,7 +8,7 @@
 
 ## Senin, 10 Oktober 2022
 
-### A. **Asycnhronous**
+### A. **Asynchronous**
 - Promise 
   ```
     function GetUser(id) {
