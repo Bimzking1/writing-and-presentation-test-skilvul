@@ -11,7 +11,7 @@
 ### A. Javascript Looping
 
 ### Looping
-
+ 
 - ***Looping*** merupakan statement yang mengulang suatu perintah hingga kondisi terpenuhi atau ada perintah untuk **stop**.
 
 - Looping *<strong>For*</strong>
