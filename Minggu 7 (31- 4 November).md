@@ -99,11 +99,10 @@
     ```
     npm install react-redux
     ```
-- Dalam **React Redux**, terdapat tiga part pernting, yaitu Store, Reducer, dan Action.
+- Dalam **React Redux**, terdapat tiga part penting, yaitu Store, Reducer, dan Action.
 
   - **Store**
-    - Tugas **Store** adalah menggabungkan Action dan Reducer untuk menjadi state manajemen.
-    - Store mempunyai beberapa tugas, yaitu:
+    - **Store** mempunyai beberapa tugas, seperti:
       - Menyimpan seluruh state.
         - contoh
           ```
@@ -121,7 +120,7 @@
 
           store.getState()
           ```
-      - Menjalankan reducer untuk merubah state dengan menggunakan dispatch (Action).
+      - Menjalankan reducer untuk merubah state dengan menggunakan *dispatch(action)*.
         - contoh
           ```
           import ADD_DATA from './action'
@@ -132,7 +131,7 @@
 
   - **Reducer**
 
-    - **Reducer** bertugas merubah state menjadi response yang terjadi ketika action dimasukan dalam dispatch(). Reducer termasuk function yang mengembalikan state baru.
+    - **Reducer** bertugas merubah state menjadi response yang terjadi ketika action dimasukan dalam *dispatch()*.
 
       ```
       const initialState = {}
@@ -148,7 +147,7 @@
       export default reducer
       ```
 
-      - Jika action yang dimasukan dalam *dispatch()* bertipe *ADD_DATA*, maka akan mengembalikan sebuah object baru yang isinya adalah *prevState* ditambah dengan data baru yang di masukan melalui action.data dan hasil dari reducer inilah yang akan menjadi state yang baru.
+      - Jika action yang dimasukan dalam *dispatch()* bertipe *ADD_DATA*, maka akan mengembalikan object baru yang isinya *prevState* ditambah dengan data baru action.data dan hasil dari reducer inilah yang akan menjadi state yang baru.
 
   - **Action**
 
