@@ -51,36 +51,36 @@
 
   - Class dan ClassName       
      
-    ![className](images/className.JPG)
+    ![className](images/week6/className.JPG)
   - Curly Brackets
         
-    ![curlyBraces](images/curlyBraces.JPG)
+    ![curlyBraces](images/week6/curlyBraces.JPG)
   - Variable
         
-    ![variabel](images/variabel.JPG)
+    ![variabel](images/week6/variabel.JPG)
   - Attribute
         
-    ![atributtes](images/atributtes.JPG)
+    ![atributtes](images/week6/atributtes.JPG)
   - Event
         
-    ![event](images/event.JPG)
+    ![event](images/week6/event.JPG)
   - Conditional
     - Conditional Variables
 
-        ![conditionalVariables](images/conditionalVariables.JPG)
+        ![conditionalVariables](images/week6/conditionalVariables.JPG)
     - Conditional JSX
 
-        ![conditionalJSX](images/conditionalJSX.JPG)
+        ![conditionalJSX](images/week6/conditionalJSX.JPG)
 
 ### C. **React Component**
 - Component membagi UI dalam satuan-satuan kecil. Component dibuat supaya component tersebut reusable, sehingga ketika terdapat error di salah satu component, component lain tidak ikut bermasalah.
 
   - Parent Component
         
-    ![componentsParent](images/componentsParent.JPG)
+    ![componentsParent](images/week6/componentsParent.JPG)
   - Child Component
         
-    ![componentsChild](images/componentsChild.JPG)
+    ![componentsChild](images/week6/componentsChild.JPG)
 
 ## Selasa, 25 Oktober 2022
 
@@ -90,15 +90,15 @@
 
 - **State** digunakan untuk menyimpan data di component tersebut saja (local).
         
-    ![state](images/state.png)
+    ![state](images/week6/state.png)
   
 - **Props** digunakan untuk menyimpan data yang akan dikirim ke component lain.
   - Props Parent ( ***App.js*** )
         
-    ![props](images/props.png)
+    ![props](images/week6/props.png)
   - Props Child ( ***MemberInfo.js*** )
         
-    ![propsChild](images/propsChild.png)
+    ![propsChild](images/week6/propsChild.png)
 
 ## Rabu, 26 Oktober 2022
 
@@ -111,13 +111,13 @@
   ```
 - Handler Event
         
-    ![eventHandler](images/eventHandler.png)
+    ![eventHandler](images/week6/eventHandler.png)
 
 ### B. **Array Map**
 
 - **map()** dapat digunakan untuk melakukan iterasi object dalam suatu array dan memodifikasi konten dari setiap object individu dan menyimpan data tersebut dalam array yang baru.
         
-  ![map](images/map.png)
+  ![map](images/week6/map.png)
   - Dalam contoh diatas, component **Card** akan muncul sebanyak jumlah data yang ada dalam array ***users***, yaitu 4 kali.
 
 ## Kamis, 27 Oktober 2022
@@ -140,7 +140,7 @@
    - **Update**: website kita menerima sebuah perubahan atau update dari suatu hal.
    - **Unmount**: website kita mulai menghilang atau berganti.
         
-    ![effect](images/effect.png)
+    ![effect](images/week6/effect.png)
 
 ## Jumat, 28 Oktober 2022
 
@@ -148,4 +148,4 @@
 
 - Contoh penggunaan form POST dalam React JS adalah sebagai berikut:
         
-  ![form](images/form.png)
+  ![form](images/week6/form.png)
