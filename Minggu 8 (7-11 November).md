@@ -143,9 +143,6 @@
     - **Integration Test** = Pengujian ketika terdapat hubungan dengan fitur lain.
     - **End To End** = Pengujian terhadap seluruh proses.
 
-Jest adalah pelari pengujian JavaScript, yaitu pustaka JavaScript untuk membuat, menjalankan , dan menyusun pengujian .<br/>
-Jest dikirimkan sebagai paket NPM, Anda dapat menginstalnya di proyek JavaScript apa pun. Jest adalah salah satu test runner terpopuler saat ini , dan pilihan default untuk proyek React.
-
 ### B. **TDD - Test Driven Development**
 
 - Pada umumnya testing dilakukan setelah fitur selesai dibuat, proses ini terjadi pada development biasa. Sedangkan pada proses TDD, testing dilakukan lebih dulu sebelum membuat fitur.
