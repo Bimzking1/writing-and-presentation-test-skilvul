@@ -195,3 +195,6 @@
 
     module.exports = sum
     ```
+  - Run testing
+  
+    ![jest](images/week8/jest.png)
